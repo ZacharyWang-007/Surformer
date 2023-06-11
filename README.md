@@ -8,7 +8,7 @@ This is the official pytorch implementation of Surformer [Surformer : an interpr
   <img src="Figures/fig1.png">
  </div>
  
- ## Experiment Results on Holistic and Occluded Person ReID Datasets
+ ## Experiment Results on five TCGA tumor datasets
  <div align="center">
   <img src="Figures/Result1.png" width="400px"/>
  </div>
@@ -42,12 +42,22 @@ This is the official pytorch implementation of Surformer [Surformer : an interpr
 If you find this code useful for your research, please cite our paper
 
 ```
-@inproceedings{wang2022feature,
-  title={Feature Erasing and Diffusion Network for Occluded Person Re-Identification},
-  author={Wang, Zhikang and Zhu, Feng and Tang, Shixiang and Zhao, Rui and He, Lihuo and Song, Jiangning},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={4754--4763},
-  year={2022}
+@article{wang2023surformer,
+  title={Surformer: An Interpretable Pattern-Perceptive Survival Transformer for Cancer Survival Prediction from Histopathology Whole Slide Images},
+  author={Wang, Zhikang and Gao, Qian and Yi, Xiao-Ping and Zhang, Xinyu and Zhang, Yiwen and Zhang, Daokun and Li{\`o}, Pietro and Bain, Christopher and Bassed, Richard and Li, Shanshan and others},
+  journal={Available at SSRN 4423682},
+  year={2023}
+}
+
+@article{wang2023targeting,
+  title={Targeting tumor heterogeneity: multiplex-detection-based multiple instance learning for whole slide image classification},
+  author={Wang, Zhikang and Bi, Yue and Pan, Tong and Wang, Xiaoyu and Bain, Chris and Bassed, Richard and Imoto, Seiya and Yao, Jianhua and Daly, Roger J and Song, Jiangning},
+  journal={Bioinformatics},
+  volume={39},
+  number={3},
+  pages={btad114},
+  year={2023},
+  publisher={Oxford University Press}
 }
 ```
 
