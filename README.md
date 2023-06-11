@@ -10,7 +10,7 @@ This is the official pytorch implementation of Surformer [Surformer : an interpr
  
  ## Experiment Results on five TCGA tumor datasets
  <div align="center">
-  <img src="Figures/fig2.png" width="400px"/>
+  <img src="Figures/fig2.png" >
  </div>
 
  
