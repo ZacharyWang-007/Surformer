@@ -10,31 +10,22 @@ This is the official pytorch implementation of Surformer [Surformer : an interpr
  
  ## Experiment Results on five TCGA tumor datasets
  <div align="center">
-  <img src="Figures/Result1.png" width="400px"/>
+  <img src="Figures/fig2.png" width="400px"/>
  </div>
- 
- <div align="center">
-  <img src="Figures/Result2.png" width="400px"/>
- </div>
- 
- ## Retrieve Comparison between [TransReID](https://github.com/damo-cv/TransReID) 
- <div align="center">
-  <img src="Figures/Comparison.png" width="700px"/>
- </div>
- 
+
  
  ## Requirements
  ### Installation
- Please refer to [TransReID](https://github.com/damo-cv/TransReID) 
+Please install pytorch version >=1.2
+
  ### Dataset Preparation
- Please download Occluded-Duke dataset and [cropped patches](https://drive.google.com/file/d/1lYTBokHR8pkbjz_LPhZjh4ij8B-FI1LA/view?usp=sharing). Meanwhile place cropped patches into Occluded-Duke (just because of dataloader).
- ### Pretrained Model Preparison
- Please download pretrained [ViT backbone](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) in advance.
+ Please download the official [TCGA datasets](https://www.cancer.gov/ccg/research/genome-sequencing/tcga) of BRCA, BLCA, GBMLGG, LUAD, and UCEC. 
+ For more details of pre-processing, please refer to [CLAM](https://github.com/mahmoodlab/CLAM).
  
  ## Model training and testing
- before training and testing, please update config file accordingly.  Around 13G GPU memory is required. 
+ before training and testing, please update configs. Generally, we train the model with one 12 GB memory GPU. 
  ~~~~~~~~~~~~~~~~~~
-   python train.py 
+   python main.py 
  ~~~~~~~~~~~~~~~~~~
 
 ## Citation
