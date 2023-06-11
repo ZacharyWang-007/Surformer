@@ -5,7 +5,7 @@ This is the official pytorch implementation of Surformer [Surformer : an interpr
 
 ## Pipline
 <div align="center">
-  <img src="Figures/Structure.png">
+  <img src="Figures/fig1.png">
  </div>
  
  ## Experiment Results on Holistic and Occluded Person ReID Datasets
