@@ -42,7 +42,7 @@ parser.add_argument('--drop_out', action='store_true', default=True, help='Enabl
 parser.add_argument('--opt', type=str, choices=['adam', 'sgd'], default='adam')
 parser.add_argument('--batch_size', type=int, default=1, help='Batch Size (Default: 1, due to varying bag sizes)')
 parser.add_argument('--gc', type=int, default=32, help='Gradient Accumulation Step.')  # 32
-parser.add_argument('--max_epochs', type=int, default=40, help='Maximum number of epochs to train (default: 20)')
+parser.add_argument('--max_epochs', type=int, default=20, help='Maximum number of epochs to train (default: 20)')
 parser.add_argument('--lr_step', type=int, default=20, help='lr step')
 parser.add_argument('--lr', type=float, default=3e-4, help='Learning rate (default: 0.0001)')
 parser.add_argument('--bag_loss', type=str, choices=['svm', 'ce', 'ce_surv', 'nll_surv', 'cox_surv'],
