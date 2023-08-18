@@ -34,10 +34,12 @@ If you find this code useful for your research, please cite our paper
 
 ```
 @article{wang2023surformer,
-  title={Surformer: An Interpretable Pattern-Perceptive Survival Transformer for Cancer Survival Prediction from Histopathology Whole Slide Images},
-  author={Wang, Zhikang and Gao, Qian and Yi, Xiao-Ping and Zhang, Xinyu and Zhang, Yiwen and Zhang, Daokun and Li{\`o}, Pietro and Bain, Christopher and Bassed, Richard and Li, Shanshan and others},
-  journal={Available at SSRN 4423682},
-  year={2023}
+  title={Surformer: an interpretable pattern-perceptive survival transformer for cancer survival prediction from histopathology whole slide images},
+  author={Wang, Zhikang and Gao, Qian and Yi, Xiaoping and Zhang, Xinyu and Zhang, Yiwen and Zhang, Daokun and Li{\`o}, Pietro and Bain, Chris and Bassed, Richard and Li, Shanshan and others},
+  journal={Computer Methods and Programs in Biomedicine},
+  pages={107733},
+  year={2023},
+  publisher={Elsevier}
 }
 
 @article{wang2023targeting,
